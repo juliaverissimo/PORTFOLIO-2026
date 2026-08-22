@@ -1,0 +1,498 @@
+/* =========================================
+   1. GERAL & RESET
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(255, 240, 240);
+    overflow-x: hidden;
+}
+
+/* =========================================
+   2. CABEÇALHO (HEADER) & TOPO
+   ========================================= */
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.nav-bar {
+    background-color: rgb(97, 29, 29, 0.9);
+    color: aliceblue;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.topic a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.topic a:hover {
+    color: #a83649;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .drseta {
+    font-size: 10px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* Dropdown - Ensino Médio */
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: #9e1111;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(243, 37, 37, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.dropdown-conteudo a {
+    color: white !important;
+    padding: 12px 16px;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-conteudo a:hover {
+    background-color: #7a1111;
+    color: #d37575 !important;
+}
+
+.dropdown-conteudo.mostrar {
+    display: block;
+}
+
+/* Dropdown - Técnico */
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #992d2d;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.dropdown-cont a {
+    color: white !important;
+    padding: 12px 16px;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-cont a:hover {
+    background-color: #7a1111;
+    color: #d37575 !important;
+}
+
+.dropdown-cont.mostrar {
+    display: block;
+}
+
+/* =========================================
+    CARD CARD CARD CARD CARD CARD CARD CARD 
+   ========================================= */
+.card {
+    background-color: white;
+    width: 95%;
+    height: fit-content;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+    border-radius: 45px;
+}
+
+
+
+/* =========================================
+   3. CONTEÚDO PRINCIPAL (Sobre mim)
+   ========================================= */
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    margin: 0 auto 60px auto;
+}
+
+.texto {
+    color: rgb(77, 7, 7);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 45%;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.texto h2 {
+    color: rgb(97, 29, 29);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.foto-perfil {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-perfil img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+/* =========================================
+   4. OBJETIVOS
+   ========================================= */
+.tituloob {
+    color: rgb(97, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.textoob {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+/* =========================================
+   5. CURRÍCULO
+   ========================================= */
+.curriculo {
+    color: rgb(97, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-cv {
+    width: 100%;
+    max-width: 620px;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.info {
+    width: calc(100% + 25px);
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.bnt-cv {
+    text-align: center;
+}
+
+.bnt-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(97, 29, 29);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bnt-link:hover {
+    background-color: rgb(143, 90, 90);
+    color: rgb(48, 9, 9);
+}
+
+/* =========================================
+   6. PORTFÓLIO 2º ANO
+   ========================================= */
+.portfolio {
+    color: rgb(97, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin: 45px;
+}
+
+.container-pf {
+    width: 100%;
+    max-width: 620px;
+    height: 400px;
+    margin: 79px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.pf-img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* =========================================
+   Activity embed wrapper (padrão médio para atividades)
+   - Uso: envolver o <iframe> em <div class="activity-wrapper"> e dar ao iframe a classe .activity-iframe
+   - Mantém proporção 16:9 e largura máxima para um tamanho médio
+   ========================================= */
+.activity-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 820px; /* largura máxima (médio-grande), ajuste se quiser menor */
+    margin: 1.4em auto;
+}
+.activity-wrapper::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 */
+}
+.activity-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* =========================================
+   7. BOTÕES TRIMESTRE
+   ========================================= */
+.botoes-trimestre {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-trimestre {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(97, 29, 29);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-trimestre:hover {
+    background-color: rgb(143, 90, 90);
+    color: rgb(48, 9, 9);
+}
+
+/* =========================================
+   8. RODAPÉ (FOOTER)
+   ========================================= */
+footer {
+    background-color: rgb(97, 29, 29);
+    padding: 20px 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer h3 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .logo-icon {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    transition: filter 0.3s ease;
+}
+
+/* =========================================
+   9. HUMANAS 
+   ========================================= */
+.humanas-titulo1 {
+    color: rgb(97, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.humanas-titulo1 b,
+.humanas-titulo1 strong {
+    font-weight: 700;
+}
+
+.humanas-texto1 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.humanas-descriçao1 {
+    color: rgb(97, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.activity-image {
+    width: 100%;
+    max-width: 820px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* =========================================
+   10. LAYOUT ATIVIDADE (imagem à esquerda, descrição à direita)
+   - .materia-layout: container em duas colunas (flex)
+   - .materia-media:  coluna esquerda (imagem/iframe + botão)
+   - .materia-texto:  coluna direita (descrição + habilidades)
+   - Em telas pequenas as colunas empilham (imagem acima)
+   ========================================= */
+.materia-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.materia-media {
+    flex: 1 1 45%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.materia-texto {
+    flex: 1 1 45%;
+    min-width: 280px;
+}
+
+/* Dentro da coluna de texto, textos e títulos ficam alinhados à esquerda */
+.materia-texto .humanas-texto1 {
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+}
+
+.materia-texto .humanas-descriçao1 {
+    text-align: left;
+}
+
+.materia-media .activity-wrapper {
+    margin: 0 auto 1.4em auto;
+    width: 100%;
+}
+
+.materia-media .bnt-cv {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Responsividade: empilha as colunas em telas menores */
+@media (max-width: 768px) {
+    .materia-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .materia-media,
+    .materia-texto {
+        flex: 1 1 100%;
+        min-width: 0;
+        width: 100%;
+    }
+}
