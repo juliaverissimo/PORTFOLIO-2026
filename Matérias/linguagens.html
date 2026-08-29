@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
+    <title>Linguagens e suas tecnologias</title>
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <a href="../index.html"><img class="logo" src="../fotos/logo.png" alt="Minha_Logo"></a>
+        <nav>
+            <ul class="topic">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleMenu(event, 'dropdown-menu')">Ensino Médio<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-conteudo" id="dropdown-menu">
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="ciencias.html">Ciências da Natureza</a>
+                        <a href="humanas.html">Ciências Humanas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbt" onclick="toggleMenu(event, 'dropdown-men')">Técnico<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-cont" id="dropdown-men">
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="aplicativos.html">Programação de Aplicativos</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botoes-trimestre" style="margin-bottom: 5px;">
+        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
+    </div>
+    <div class="card">
+        <div id="tri1" class="trimestre">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">A paixão segundo G.H</h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <img class="activity-image" src="../fotos/Apaixaogh.png" alt="A paixão segundo G.H">
+                        <div class="bnt-cv">
+                            <a class="bnt-link" href="https://youtu.be/66sZjfvacSE?si=zKNGS1NuV1j8wBzt" target="_blank"
+                                rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Nesta atividade, lemos o livro <i>A paixão segundo G.H.</i>, de
+                                Clarice
+                                Lispector, com a proposta de enxergar a obra por uma nova perspectiva. O grupo escolhido
+                                foi o
+                                da antropologia, e nosso objetivo foi interpretar os personagens, seus sentimentos e as
+                                transformações que eles vivenciam ao longo da história. A atividade incentivou uma
+                                leitura mais
+                                profunda, indo além do básico, especialmente ao explorar questões como identidade e a
+                                forma como
+                                o “eu” é construído. No geral, achei a atividade muito boa e divertida, principalmente
+                                por
+                                permitir essa mistura de interpretação com criatividade. </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">H4 - Reconhecer a pluralidade de manifestações artísticas e
+                                culturais como
+                                forma de integração entre pessoas e entre diferentes grupos sociais e étnicos.
+                                <br>
+                                H22 - Produzir textos técnicos de acordo com uma estrutura estabelecida.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Game literário</h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHB3y_ZSyA/a4hvTpAwpdHuMEE5cPiEcg/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://wordwall.net/pt/embed/07d7e971cedb4deb83ab80da29e7e0a3?themeId=62&templateId=8&fontStackId=2"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Nesta atividade, revisamos as escolas literárias brasileiras,
+                                desde o
+                                Quinhentismo até o Simbolismo, a proposta foi uma forma diferente de estudar, tornando o
+                                conteúdo mais dinâmico e interativo.Durante o processo, tivemos que organizar as
+                                principais
+                                características de cada escola literária, resumindo as informações de forma clara para
+                                transformar em perguntas e desafios dentro do jogo. Isso ajudou a reforçar o
+                                entendimento dos
+                                conteúdos e a fixar melhor o conteúdo. Além disso, a atividade também desenvolveu a
+                                criatividade. No geral, foi uma experiência bem produtiva e diferente das revisões
+                                tradicionais,
+                                o que tornou o aprendizado mais leve e eficiente.</p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">H15 - Produzir trabalhos individuais e coletivos, explorando
+                                materiais e
+                                técnicas
+                                ligados ao universo das composições artísticas e de práticas corporais.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="tri2" class="trimestre" style="display:none;">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Videomanifesto</h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <img class="activity-image" src="../fotos/videomanifesto.png" alt="A paixão segundo G.H">
+                        <div class="bnt-cv">
+                            <a class="bnt-link" href="https://youtube.com/shorts/Awu2hlmmGn8?feature=share"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">A atividade foi fazer um Manifesto Digital em vídeo, e nosso grupo
+                                escolheu falar sobre o preconceito linguístico e a importância de valorizar os
+                                diferentes sotaques do Brasil. Primeiro, escolhemos o tema e pensamos no que queríamos
+                                transmitir. Depois, fizemos o roteiro, dividindo as falas e organizando os argumentos.
+                                Por fim, planejamos o vídeo no estilo TikTok, deixando a apresentação mais dinâmica e
+                                criativa.
+                                <br>
+                                <br>
+                                Eu gostei bastante da atividade porque foi diferente das atividades comuns e deu espaço
+                                para a gente usar a criatividade. Também foi legal trabalhar em grupo e falar sobre um
+                                assunto que faz parte da nossa realidade. Acho que conseguimos passar nossa mensagem de
+                                um jeito simples, direto e interessante.
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                H3 - Identificar o tema principal, os subtemas e finalidades dos textos;
+                                <br>
+                                H24 - Produzir textos escritos de domínio acadêmico e educacional.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+
+
+            <!-- 2 ATIVIDADE -->
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Que Tipo de Arte Você Consome?</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://docs.google.com/document/d/e/2PACX-1vTDYdmKwb5XgpMwoFAju8K3zGPunmxV82wH3uPhtN8zmDlFayD6tVapNebrhVa0miIPVlyyNzFz5r-B/pub?embedded=true"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://docs.google.com/document/d/e/2PACX-1vTDYdmKwb5XgpMwoFAju8K3zGPunmxV82wH3uPhtN8zmDlFayD6tVapNebrhVa0miIPVlyyNzFz5r-B/pub?embedded=true"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:
+                            </h2>
+                            <p class="humanas-texto1"> A atividade foi criar um portfólio de Inglês sobre nosso artista,
+                                filme e música favoritos.
+                                Pesquisamos informações sobre cada escolha, como biografia, trabalhos, ano de lançamento
+                                e
+                                outras curiosidades. Também explicamos por que gostamos de cada um, quando conhecemos o
+                                artista, assistimos ao filme ou ouvimos a música pela primeira vez. Tudo foi organizado
+                                em
+                                inglês para praticarmos o idioma de uma forma mais próxima dos nossos gostos pessoais.
+                                <br>
+                                <br>
+                                Foi uma atividade interessante porque pudemos escolher coisas que realmente
+                                gostamos e aprender inglês falando sobre assuntos do nosso dia a dia.
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                H25 - Interpretar textos em Língua Estrangeira Moderna.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+            </br>
+
+            <!-- 3 ATIVIDADE -->
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Certficado Olimpiadas de Literatura</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHTCJ5OW2s/PQTYUSMJAx7HaaXBcO-brA/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHTCJ5OW2s/PQTYUSMJAx7HaaXBcO-brA/view"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:
+                            </h2>
+                            <p class="humanas-texto1"> A atividade foi criar um portfólio de Inglês sobre nosso artista,
+                                filme e música favoritos.
+                                Pesquisamos informações sobre cada escolha, como biografia, trabalhos, ano de lançamento
+                                e
+                                outras curiosidades. Também explicamos por que gostamos de cada um, quando conhecemos o
+                                artista, assistimos ao filme ou ouvimos a música pela primeira vez. Tudo foi organizado
+                                em
+                                inglês para praticarmos o idioma de uma forma mais próxima dos nossos gostos pessoais.
+                                <br>
+                                <br>
+                                Foi uma atividade interessante porque pudemos escolher coisas que realmente
+                                gostamos e aprender inglês falando sobre assuntos do nosso dia a dia.
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                H25 - Interpretar textos em Língua Estrangeira Moderna.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="tri3" class="trimestre" style="display:none;">
+        <h2 class="humanas-titulo1">3º Trimestre</h2>
+        <p class="humanas-texto1">Em andamento...</p>
+    </div>
+    </div>
+
+    <footer id="Contatos">
+        <h3>Contatos</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/j%C3%BAlia-ver%C3%ADssimo-a269a0380/" target="_blank"><img
+                        class="logo-icon" src="../fotos/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jufalcaov/" target="_blank"><img class="logo-icon"
+                        src="../fotos/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://github.com/juliaverissimo" target="_blank"><img class="logo-icon"
+                        src="../fotos/github.png" alt="GitHub"></a></li>
+        </ul>
+        &copy Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
+    </footer>
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

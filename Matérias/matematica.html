@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
+    <title>Matemática e suas tecnologias</title>
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <a href="../index.html"><img class="logo" src="../fotos/logo.png" alt="Minha_Logo"></a>
+        <nav>
+            <ul class="topic">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleMenu(event, 'dropdown-menu')">Ensino Médio<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-conteudo" id="dropdown-menu">
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="ciencias.html">Ciências da Natureza</a>
+                        <a href="humanas.html">Ciências Humanas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbt" onclick="toggleMenu(event, 'dropdown-men')">Técnico<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-cont" id="dropdown-men">
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="aplicativos.html">Programação de Aplicativos</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botoes-trimestre">
+        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
+    </div>
+
+    <div class="card">
+
+
+        <div id="tri1" class="trimestre">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Atividade do filme <i>Quebrando a banca</i></b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://docs.google.com/document/d/e/2PACX-1vS9qw7ZxOlD0fd3qnnythcoQIOWuF2Ji-8s1dTFoxTDgXkwrG05INTxT74wtytcpU4JweuUkUY9eQta/pub?embedded=true"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://docs.google.com/document/d/e/2PACX-1vS9qw7ZxOlD0fd3qnnythcoQIOWuF2Ji-8s1dTFoxTDgXkwrG05INTxT74wtytcpU4JweuUkUY9eQta/pub?embedded=true"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Esta atividade teve como base o filme <i>Quebrando a banca</i> e
+                                teve como
+                                objetivo relacionar conceitos matemáticos com situações do cotidiano, especialmente no
+                                que se
+                                diz respeito à probabilidade e à tomada de decisões. A partir da análise do filme, foi
+                                possível
+                                compreender como a matemática pode ser aplicada de forma prática em contextos reais,
+                                como jogos
+                                ilegais. A parte de produzir o roteiro foi a parte mais difícil durante a atividade, mas
+                                gostei
+                                da proposta. </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C5: Aplicar o pensamento probabilístico para quantificar e fazer
+                                previsões
+                                em situações aplicadas a diferentes áreas do conhecimento e da vida cotidiana.
+                                <br>
+                                H30: Identificar dados, regularidades e relações numa situação que envolva o raciocínio
+                                combinatório, utilizando os processos de contagem.
+                                <br>
+                                H31: Reconhecer fenômenos e eventos (naturais, científicos, tecnológicos e/ou sociais)
+                                de
+                                caráter aleatório, compreendendo o significado e a importância da probabilidade como
+                                meio de
+                                prever resultados.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+            </br>
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Jogo do filme <i>Quebrando a banca</i></b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHH5d4GjDA/LlVSL-daFo4JmwoyxXUPkg/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHH5d4GjDA/LlVSL-daFo4JmwoyxXUPkg/view?embed"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Jogo educativo interativo desenvolvido em grupo que combina
+                                probabilidade,
+                                estratégia e elementos culturais de Florianópolis em uma experiência gamificada. No
+                                jogo, o
+                                usuário avança por desafios inspirados em referências da Ilha da Magia, como o lance da
+                                rede de
+                                tainha e o “oráculo das conchas”, resolvendo situações baseadas em chances, previsões e
+                                tomada
+                                de decisão. Eu adorei realizar essa atividade, pois recriamos o jogo com lugares e
+                                músicas que
+                                conhecemos pessoalmente.</p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C5: Aplicar o pensamento probabilístico para quantificar e fazer
+                                previsões
+                                em situações aplicadas a diferentes áreas do conhecimento e da vida cotidiana.
+                                <br>
+                                H30: Identificar dados, regularidades e relações numa situação que envolva o raciocínio
+                                combinatório, utilizando os processos de contagem.
+                                <br>
+                                H31: Reconhecer fenômenos e eventos (naturais, científicos, tecnológicos e/ou sociais)
+                                de
+                                caráter aleatório, compreendendo o significado e a importância da probabilidade como
+                                meio de
+                                prever resultados.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="tri2" class="trimestre" style="display:none;">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Dedetives de Dados</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHNZd53CZQ/lQ6womlkIEInXL0CLkOOCA/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHNZd53CZQ/lQ6womlkIEInXL0CLkOOCA/view"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Neste trabalho, realizamos uma pesquisa sobre o uso das redes
+                                sociais pelos estudantes e sua influência nos estudos. Para isso, coletamos informações
+                                por meio de um questionário e organizamos os dados obtidos em tabelas e gráficos.
+                                
+                                Analisamos os resultados utilizando conceitos de Estatística, como média, mediana,
+                                desvio padrão e variância. A partir dos dados, buscamos entender os hábitos dos
+                                estudantes e como o uso das redes sociais pode influenciar a concentração, os estudos e
+                                o aprendizado.
+
+                                Escolhemos esse tema por ser algo presente no dia a dia dos estudantes e que permite
+                                compreender melhor a relação entre o uso da tecnologia e a rotina escolar.
+                                <br>
+                                <br>
+                                A atividade foi interessante de ser realizada, por conta de falar com outras turmas e etc. Mas não conseguimos um grande números de respostas por conta do tempo.
+                            
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                C4 - Analisar e investigar dados e informações de natureza científica e social,
+                                articulando diferentes áreas do conhecimento, compreendendo representações gráficas e
+                                uso de modelos matemáticos, realizando inferências, previsões e tendências, para tomadas
+                                de decisão.
+                                <br>
+                                <br>
+                                H 27 -Compreender informações estatísticas provenientes de naturezas distintas (social,
+                                econômica, política ou científica) e formular juízos com base nessas informações.
+                                <br>
+                                <br>
+                                H 28 - Calcular medidas de tendência central e de dispersão de um conjunto de dados para
+                                aplicá-las e analisá-las em situações diversas no contexto das ciências, das
+                                tecnologias, das atividades pessoais e profissionais.
+                                <br>
+                                <br>
+                                H 29- Construir tabelas e gráficos com recursos tecnológicos que permitam simplificar
+                                cálculos, facilitar a leitura e a compreensão das informações, para análise da
+                                realidade.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="tri3" class="trimestre" style="display:none;">
+            <h2 class="humanas-titulo1">3º Trimestre</h2>
+            <p class="humanas-texto1">Em andamento...</p>
+        </div>
+    </div>
+    <footer id="Contatos">
+        <h3>Contatos</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/j%C3%BAlia-ver%C3%ADssimo-a269a0380/" target="_blank"><img
+                        class="logo-icon" src="../fotos/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jufalcaov/" target="_blank"><img class="logo-icon"
+                        src="../fotos/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://github.com/juliaverissimo" target="_blank"><img class="logo-icon"
+                        src="../fotos/github.png" alt="GitHub"></a></li>
+        </ul>
+        &copy Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
+    </footer>
+    <script src="../script.js"></script>
+</body>
+
+</html>

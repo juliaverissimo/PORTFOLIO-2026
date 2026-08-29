@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
+    <title>Programação de Aplicativos/title>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <a href="../index.html"><img class="logo" src="../fotos/logo.png" alt="Minha_Logo"></a>
+        <nav>
+            <ul class="topic">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleMenu(event, 'dropdown-menu')">Ensino Médio<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-conteudo" id="dropdown-menu">
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="ciencias.html">Ciências da Natureza</a>
+                        <a href="humanas.html">Ciências Humanas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbt" onclick="toggleMenu(event, 'dropdown-men')">Técnico<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-cont" id="dropdown-men">
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="aplicativos.html">Programação de Aplicativos</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botoes-trimestre">
+        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
+    </div>
+
+    <div class="card">
+
+
+        <div id="tri1" class="trimestre">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>1° Trimestre</b></h2>
+        </div>
+
+        <!-- 2 TRIMESTRE -->
+
+        <div id="tri2" class="trimestre" style="display:none;">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Dossiê histórico</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="A Grande Guerra - Padlet"
+                                src="https://www.canva.com/design/DAHOVNj2eFE/Sm9AgsEcY72zqyIy7Qjmng/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHOVNj2eFE/Sm9AgsEcY72zqyIy7Qjmng/view"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="A Grande Guerra - Padlet"
+                                src="https://www.canva.com/design/DAHOmpu_mjc/yn6CX5qSfHgjH0tbgx-rpg/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHOmpu_mjc/yn6CX5qSfHgjH0tbgx-rpg/view"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Nesta atividade, escolhemos abordar dois acontecimentos marcantes
+                                da Segunda Guerra Mundial: o Holocausto e as bombas atômicas lançadas sobre Hiroshima e
+                                Nagasaki. O objetivo é compreender o contexto histórico desses acontecimentos, suas
+                                principais causas e consequências, além de refletir sobre os impactos humanos, sociais e
+                                políticos que deixaram na história mundial.
+                                <br>
+                                <br>
+                                A atividade foi bem instruída e concluida, consegui absorver os assuntos de forma leve e
+                                descontraida!
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1"> LEMBRAR LUCAS E MARCUS.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="tri3" class="trimestre" style="display:none;">
+            <h2 class="humanas-titulo1">3º Trimestre</h2>
+            <p class="humanas-texto1">Em andamento...</p>
+        </div>
+
+    </div>
+
+    <footer id="Contatos">
+        <h3>Contatos</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/j%C3%BAlia-ver%C3%ADssimo-a269a0380/" target="_blank"><img
+                        class="logo-icon" src="../fotos/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jufalcaov/" target="_blank"><img class="logo-icon"
+                        src="../fotos/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://github.com/juliaverissimo" target="_blank"><img class="logo-icon"
+                        src="../fotos/github.png" alt="GitHub"></a></li>
+        </ul>
+        &copy; Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
+    </footer>
+    <script src="../script.js"></script>''
+</body>
+
+</html>
