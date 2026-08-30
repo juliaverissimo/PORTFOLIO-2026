@@ -275,7 +275,7 @@ body {
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #dd0b0b;
 }
 
 .pf-img {
@@ -497,10 +497,7 @@ footer .logo-icon {
     }
 }
 
-/* caroussel */
-
-.carousel-slides {
-    .carousel {
+.carousel {
   position: relative;
   width: 600px;
   max-width: 100%;
@@ -540,4 +537,3 @@ footer .logo-icon {
 
 .prev { left: 10px; }
 .next { right: 10px; }
-}

@@ -47,7 +47,6 @@ function mostrarTrimestre(numero) {
     }
 }
 
-// caroussel
 let indexAtual = 0;
 
 function mudarSlide(direcao) {

@@ -59,49 +59,65 @@
 
         <div id="tri2" class="trimestre" style="display:none;">
             <section class="materia-secao">
-                <h2 class="humanas-titulo1"><b>Dossiê histórico</b></h2>
+                <h2 class="humanas-titulo1"><b>Semáforo</b></h2>
                 <div class="materia-layout">
                     <div class="materia-media">
-                        <div class="activity-wrapper"
-                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
-                            <iframe class="activity-iframe" loading="lazy" title="A Grande Guerra - Padlet"
-                                src="https://www.canva.com/design/DAHOVNj2eFE/Sm9AgsEcY72zqyIy7Qjmng/view?embed"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="bnt-cv">
-                            <a class="bnt-link"
-                                href="https://www.canva.com/design/DAHOVNj2eFE/Sm9AgsEcY72zqyIy7Qjmng/view"
-                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
-                        </div>
-                        <div class="activity-wrapper"
-                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
-                            <iframe class="activity-iframe" loading="lazy" title="A Grande Guerra - Padlet"
-                                src="https://www.canva.com/design/DAHOmpu_mjc/yn6CX5qSfHgjH0tbgx-rpg/view?embed"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="bnt-cv">
-                            <a class="bnt-link"
-                                href="https://www.canva.com/design/DAHOmpu_mjc/yn6CX5qSfHgjH0tbgx-rpg/view"
-                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        <div class="carousel">
+                            <div class="carousel-slides" id="slides">
+                                <img src="../fotos/Semaforo1.png" alt="Foto 1">
+                                <img src="../fotos/semaforo2.png" alt="Foto 2">
+                                <img src=../fotos/semafor3.PNG"" alt="Foto 3">
+                            </div>
+                            <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
+                            <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
                         </div>
                     </div>
                     <div class="materia-texto">
                         <section>
                             <h2 class="humanas-descriçao1">Descrição:</h2>
-                            <p class="humanas-texto1">Nesta atividade, escolhemos abordar dois acontecimentos marcantes
-                                da Segunda Guerra Mundial: o Holocausto e as bombas atômicas lançadas sobre Hiroshima e
-                                Nagasaki. O objetivo é compreender o contexto histórico desses acontecimentos, suas
-                                principais causas e consequências, além de refletir sobre os impactos humanos, sociais e
-                                políticos que deixaram na história mundial.
-                                <br>
-                                <br>
-                                A atividade foi bem instruída e concluida, consegui absorver os assuntos de forma leve e
-                                descontraida!
+                            <p class="humanas-texto1">Para realizar essa atividade, começamos montando o protótipo no
+                                Tinkercad, o que nos permitiu visualizar a posição de cada componente e testar o
+                                funcionamento do circuito antes de montá-lo fisicamente. Primeiro, trabalhamos com um
+                                LED, programando-o em C++ para que pudesse ligar, desligar e piscar em determinados
+                                intervalos. Essa etapa foi importante para termos um primeiro contato com a programação
+                                e entendermos, de forma simples, como o código interfere no funcionamento de um
+                                componente.
+
+                                Depois, evoluímos o projeto para a montagem de um semáforo, utilizando a mesma ideia que
+                                havíamos aprendido com o LED. Novamente, começamos pela prototipagem no Tinkercad e
+                                testamos o circuito junto com a programação em C++. Quando verificamos que tudo estava
+                                funcionando corretamente, partimos para a montagem física, utilizando o Arduino, LEDs e
+                                cabos conectados ao computador pelo USB para enviar o código à placa.
+
+                                Além do semáforo principal, acrescentamos um semáforo para pedestres, fazendo com que os
+                                sinais funcionassem de maneira relacionada: quando o semáforo principal estivesse
+                                vermelho, o pedestre ficaria com o sinal verde, e quando o principal estivesse liberado,
+                                o sinal do pedestre mudaria.
+
+                                A experiência foi muito positiva e ajudou bastante no nosso aprendizado. Ter esse
+                                primeiro contato com C++ e com o Arduino foi algo novo e interessante, principalmente
+                                por podermos ver a programação funcionando na prática. Começar com algo simples, como o
+                                LED, e depois transformar esse conhecimento em um projeto mais completo, como o
+                                semáforo, também facilitou bastante a compreensão de como a programação pode ser
+                                aplicada em diferentes situações.
                             </p>
                         </section>
                         <section>
                             <h2 class="humanas-descriçao1">Habilidades:</h2>
-                            <p class="humanas-texto1"> LEMBRAR LUCAS E MARCUS.
+                            <p class="humanas-texto1">
+                                H01: Reconhecer especificações técnicas e paradigmas de IoT.
+                                <br>
+                                <br>
+                                H02: Integrar dispositivos para coleta automática de dados;
+                                <br>
+                                <br>
+                                H03: Integrar dispositivos de comunicação de dados.;
+                                <br>
+                                <br>
+                                H04: Reconhecer especificações de sensoriamento e parametrização;
+                                <br>
+                                <br>
+                                H05: Integrar projeto orientado a sensoriamento e controle.
                             </p>
                         </section>
                     </div>
