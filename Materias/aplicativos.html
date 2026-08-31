@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
-    <title>Programação de Aplicativos/title>
+    <title>Programação de Aplicativos</title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
     </header>
 
     <div class="botoes-trimestre">
-        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <!-- <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button> -->
         <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
         <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
     </div>
@@ -50,10 +50,12 @@
     <div class="card">
 
 
-        <div id="tri1" class="trimestre">
+        <!-- <div id="tri1" class="trimestre">
             <section class="materia-secao">
                 <h2 class="humanas-titulo1"><b>1° Trimestre</b></h2>
-        </div>
+                <p class="humanas-texto1">Em andamento...</p>
+            </section>
+        </div> -->
 
         <!-- 2 TRIMESTRE -->
 
@@ -66,7 +68,7 @@
                             <div class="carousel-slides" id="slides">
                                 <img src="../fotos/Semaforo1.png" alt="Foto 1">
                                 <img src="../fotos/semaforo2.png" alt="Foto 2">
-                                <img src=../fotos/semafor3.PNG"" alt="Foto 3">
+                                <img src="../fotos/semafor3.PNG" alt="Foto 3">
                             </div>
                             <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
                             <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
@@ -82,18 +84,18 @@
                                 intervalos. Essa etapa foi importante para termos um primeiro contato com a programação
                                 e entendermos, de forma simples, como o código interfere no funcionamento de um
                                 componente.
-
+                                <br>
                                 Depois, evoluímos o projeto para a montagem de um semáforo, utilizando a mesma ideia que
                                 havíamos aprendido com o LED. Novamente, começamos pela prototipagem no Tinkercad e
                                 testamos o circuito junto com a programação em C++. Quando verificamos que tudo estava
                                 funcionando corretamente, partimos para a montagem física, utilizando o Arduino, LEDs e
                                 cabos conectados ao computador pelo USB para enviar o código à placa.
-
+                                <br>
                                 Além do semáforo principal, acrescentamos um semáforo para pedestres, fazendo com que os
                                 sinais funcionassem de maneira relacionada: quando o semáforo principal estivesse
                                 vermelho, o pedestre ficaria com o sinal verde, e quando o principal estivesse liberado,
                                 o sinal do pedestre mudaria.
-
+                                <br>
                                 A experiência foi muito positiva e ajudou bastante no nosso aprendizado. Ter esse
                                 primeiro contato com C++ e com o Arduino foi algo novo e interessante, principalmente
                                 por podermos ver a programação funcionando na prática. Começar com algo simples, como o
@@ -144,7 +146,7 @@
         </ul>
         &copy; Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
     </footer>
-    <script src="../script.js"></script>''
+    <script src="../script.js"></script>
 </body>
 
 </html>
