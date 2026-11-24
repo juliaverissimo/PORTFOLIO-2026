@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
+    <title>Internet das Coisas</title>
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <a href="../index.html"><img class="logo" src="../fotos/logo.png" alt="Minha_Logo"></a>
+        <nav>
+            <ul class="topic">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleMenu(event, 'dropdown-menu')">Ensino Médio<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-conteudo" id="dropdown-menu">
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="ciencias.html">Ciências da Natureza</a>
+                        <a href="humanas.html">Ciências Humanas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbt" onclick="toggleMenu(event, 'dropdown-men')">Técnico<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-cont" id="dropdown-men">
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="aplicativos.html">Programação de Aplicativos</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botoes-trimestre" style="margin-bottom: 5px;">
+        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
+    </div>
+
+    <div class="card">
+        <div id="tri1" class="trimestre">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Grand Prix <br> (Protótipo X)</h2>
+                <img class="activity-image" src="../fotos/DESAFIO PETROBRAS Protótipo.png" alt="DESAFIO">
+                <div class="bnt-cv">
+                    <a class="bnt-link" href="https://youtu.be/tOYvwRBphLE?feature=shared" target="_blank"
+                        rel="noopener noreferrer">Ver Atividade</a>
+                </div>
+
+                <section class="materia-secao">
+                    <h2 class="humanas-titulo1">Grand prix <br> (Lean Canva)</h2>
+                    <div class="materia-layout">
+                        <div class="materia-media">
+                            <div class="activity-wrapper"
+                                style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                                <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                    src="https://www.canva.com/design/DAHHA6lblp8/5hSrjqBQZxM0jirGivNNSw/view?embed"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="bnt-cv">
+                                <a class="bnt-link"
+                                    href="https://www.canva.com/design/DAHHA6lblp8/5hSrjqBQZxM0jirGivNNSw/view?embed"
+                                    target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                            </div>
+                        </div>
+                        <div class="materia-texto">
+                            <section>
+                                <h2 class="humanas-descriçao1">Descrição:</h2>
+                                <p class="humanas-texto1">Atividade de modelagem de negócios e inovação tecnológica
+                                    voltada ao
+                                    desenvolvimento de uma solução de economia circular e descarbonização industrial. O
+                                    projeto
+                                    explorou a criação de um sistema integrado para mitigar as emissões de gases de
+                                    efeito
+                                    estufa (GEE) em chaminés industriais, focando na transformação de passivos
+                                    ambientais em
+                                    ativos sólidos.
+
+                                    A atividade envolveu a proposição de um tecido nanotecnológico para a retenção de
+                                    fuligem e
+                                    CO2, aliado a sensores e um software de simulação preditiva para orientar empresas
+                                    na rota
+                                    Net Zero até 2050. Além disso, estruturou-se o processo de reciclagem dos resíduos
+                                    capturados, convertendo-os em Eco-Blocos para a engenharia civil, aplicando
+                                    conceitos
+                                    práticos de ESG, sustentabilidade e inovação no setor de óleo e gás.</p>
+                            </section>
+                </section>
+            </section>
+        </div>
+        <div id="tri2" class="trimestre" style="display:none;">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Semáforo</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="carousel">
+                            <div class="carousel-slides" id="slides">
+                                <img src="../fotos/Semaforo1.png" alt="Foto 1" loading="lazy">
+                                <img src="../fotos/semaforo2.png" alt="Foto 2" loading="lazy">
+                                <img src="../fotos/semafor3.PNG" alt="Foto 3" loading="lazy">
+                            </div>
+                            <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
+                            <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Para realizar essa atividade, começamos montando o protótipo no
+                                Tinkercad, o que nos permitiu visualizar a posição de cada componente e testar o
+                                funcionamento do circuito antes de montá-lo fisicamente. Primeiro, trabalhamos com um
+                                LED, programando-o em C++ para que pudesse ligar, desligar e piscar em determinados
+                                intervalos. Essa etapa foi importante para termos um primeiro contato com a programação
+                                e entendermos, de forma simples, como o código interfere no funcionamento de um
+                                componente.
+                                <br>
+                                <br>
+                                Depois, evoluímos o projeto para a montagem de um semáforo, utilizando a mesma ideia que
+                                havíamos aprendido com o LED. Novamente, começamos pela prototipagem no Tinkercad e
+                                testamos o circuito junto com a programação em C++. Quando verificamos que tudo estava
+                                funcionando corretamente, partimos para a montagem física, utilizando o Arduino, LEDs e
+                                cabos conectados ao computador pelo USB para enviar o código à placa.
+                                <br>
+                                <br>
+                                Além do semáforo principal, acrescentamos um semáforo para pedestres, fazendo com que os
+                                sinais funcionassem de maneira relacionada: quando o semáforo principal estivesse
+                                vermelho, o pedestre ficaria com o sinal verde, e quando o principal estivesse liberado,
+                                o sinal do pedestre mudaria.
+                                <br>
+                                <br>
+                                A experiência foi muito positiva e ajudou bastante no nosso aprendizado. Ter esse
+                                primeiro contato com C++ e com o Arduino foi algo novo e interessante, principalmente
+                                por podermos ver a programação funcionando na prática. Começar com algo simples, como o
+                                LED, e depois transformar esse conhecimento em um projeto mais completo, como o
+                                semáforo, também facilitou bastante a compreensão de como a programação pode ser
+                                aplicada em diferentes situações.
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                H01: Reconhecer especificações técnicas e paradigmas de IoT.
+                                <br>
+                                <br>
+                                H02: Integrar dispositivos para coleta automática de dados;
+                                <br>
+                                <br>
+                                H03: Integrar dispositivos de comunicação de dados.;
+                                <br>
+                                <br>
+                                H04: Reconhecer especificações de sensoriamento e parametrização;
+                                <br>
+                                <br>
+                                H05: Integrar projeto orientado a sensoriamento e controle.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="tri3" class="trimestre" style="display:none;">
+            <h2 class="humanas-titulo1">3º Trimestre</h2>
+            <p class="humanas-texto1">Em andamento...</p>
+        </div>
+    </div>
+
+
+    <footer id="Contatos">
+        <h3>Contatos</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/j%C3%BAlia-ver%C3%ADssimo-a269a0380/" target="_blank"><img
+                        class="logo-icon" src="../fotos/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jufalcaov/" target="_blank"><img class="logo-icon"
+                        src="../fotos/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://github.com/juliaverissimo" target="_blank"><img class="logo-icon"
+                        src="../fotos/github.png" alt="GitHub"></a></li>
+        </ul>
+        &copy Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
+    </footer>
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
+    <title>Modelagem de Sistemas</title>
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <a href="../index.html"><img class="logo" src="../fotos/logo.png" alt="Minha_Logo"></a>
+        <nav>
+            <ul class="topic">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleMenu(event, 'dropdown-menu')">Ensino Médio<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-conteudo" id="dropdown-menu">
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="ciencias.html">Ciências da Natureza</a>
+                        <a href="humanas.html">Ciências Humanas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbt" onclick="toggleMenu(event, 'dropdown-men')">Técnico<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-cont" id="dropdown-men">
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="aplicativos.html">Programação de Aplicativos</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botoes-trimestre" style="margin-bottom: 5px;">
+        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
+    </div>
+    
+    <div class="card">
+        <div id="tri1" class="trimestre">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Grand Prix <br> (Protótipo X)</h2>
+                <img class="activity-image" src="../fotos/DESAFIO PETROBRAS Protótipo.png" alt="DESAFIO">
+                <div class="bnt-cv">
+                    <a class="bnt-link" href="https://youtu.be/tOYvwRBphLE?feature=shared" target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                </div>
+
+                <section class="materia-secao">
+    <h2 class="humanas-titulo1">Grand prix <br> (Lean Canva)</h2>
+    <div class="materia-layout">
+        <div class="materia-media">
+            <div class="activity-wrapper"
+                        style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                        <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                            src="https://www.canva.com/design/DAHHA6lblp8/5hSrjqBQZxM0jirGivNNSw/view?embed"
+                            allowfullscreen></iframe>
+                    </div>
+            <div class="bnt-cv">
+                        <a class="bnt-link"
+                            href="https://www.canva.com/design/DAHHA6lblp8/5hSrjqBQZxM0jirGivNNSw/view?embed"
+                            target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                    </div>
+        </div>
+        <div class="materia-texto">
+            <section>
+                                    <h2 class="humanas-descriçao1">Descrição:</h2>
+                                    <p class="humanas-texto1">Atividade de modelagem de negócios e inovação tecnológica voltada ao
+                                        desenvolvimento de uma solução de economia circular e descarbonização industrial. O projeto
+                                        explorou a criação de um sistema integrado para mitigar as emissões de gases de efeito
+                                        estufa (GEE) em chaminés industriais, focando na transformação de passivos ambientais em
+                                        ativos sólidos.
+            
+                                        A atividade envolveu a proposição de um tecido nanotecnológico para a retenção de fuligem e
+                                        CO2, aliado a sensores e um software de simulação preditiva para orientar empresas na rota
+                                        Net Zero até 2050. Além disso, estruturou-se o processo de reciclagem dos resíduos
+                                        capturados, convertendo-os em Eco-Blocos para a engenharia civil, aplicando conceitos
+                                        práticos de ESG, sustentabilidade e inovação no setor de óleo e gás.</p>
+                                </section>
+        </div>
+    </div>
+</section>
+
+                <section class="materia-secao">
+    <h2 class="humanas-titulo1">S.A</h2>
+    <div class="materia-layout">
+        <div class="materia-media">
+            <div class="activity-wrapper"
+                        style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                        <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                            src="https://docs.google.com/document/d/e/2PACX-1vQLE43fy3TXtLdxqv-xz021vhTDmvejMPo0g6tB6PLKCDVpnfztBvNSxZ6_Os7NcygbJzv7apFNX2de/pub?embedded=true"
+                            allowfullscreen></iframe>
+                    </div>
+            <div class="bnt-cv">
+                        <a class="bnt-link" href="https://docs.google.com/document/d/e/2PACX-1vQLE43fy3TXtLdxqv-xz021vhTDmvejMPo0g6tB6PLKCDVpnfztBvNSxZ6_Os7NcygbJzv7apFNX2de/pub?embedded=true" target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                    </div>
+        </div>
+        <div class="materia-texto">
+            <section>
+                                    <h2 class="humanas-descriçao1">Descrição:</h2>
+                                    <p class="humanas-texto1">Atividade prática voltada para a idealização e estruturação de uma
+                                        empresa fictícia no setor das energias renováveis, denominada RVT Energia. O projeto
+                                        explorou a modelação completa do negócio, englobando a definição do conceito da empresa
+                                        com foco em soluções de energia solar, sistemas de baterias e aluguer de usinas, a criação
+                                        da identidade visual, a identificação do público-alvo e a elaboração de um Mapa da Empatia
+                                        para compreender as necessidades dos consumidores.</p>
+                                </section>
+        </div>
+    </div>
+</section>
+            </section>
+        </div>
+        <div id="tri2" class="trimestre" style="display:none;">
+            <h2 class="humanas-titulo1">2º Trimestre</h2>
+            <p class="humanas-texto1">Em andamento...</p>
+        </div>
+
+        <div id="tri3" class="trimestre" style="display:none;">
+            <h2 class="humanas-titulo1">3º Trimestre</h2>
+            <p class="humanas-texto1">Em andamento...</p>
+        </div>
+
+    </div>
+
+    <footer id="Contatos">
+        <h3>Contatos</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/j%C3%BAlia-ver%C3%ADssimo-a269a0380/" target="_blank"><img
+                        class="logo-icon" src="../fotos/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jufalcaov/" target="_blank"><img class="logo-icon"
+                        src="../fotos/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://github.com/juliaverissimo" target="_blank"><img class="logo-icon"
+                        src="../fotos/github.png" alt="GitHub"></a></li>
+        </ul>
+        &copy Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
+    </footer>
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

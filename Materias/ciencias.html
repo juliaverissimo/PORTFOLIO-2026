@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../fotos/logo.png">
+    <title>Ciências da natureza</title>
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <a href="../index.html"><img class="logo" src="../fotos/logo.png" alt="Minha_Logo"></a>
+        <nav>
+            <ul class="topic">
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleMenu(event, 'dropdown-menu')">Ensino Médio<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-conteudo" id="dropdown-menu">
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="ciencias.html">Ciências da Natureza</a>
+                        <a href="humanas.html">Ciências Humanas</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbt" onclick="toggleMenu(event, 'dropdown-men')">Técnico<span
+                            class="drseta">▼</span></a>
+                    <div class="dropdown-cont" id="dropdown-men">
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">Internet das Coisas</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="aplicativos.html">Programação de Aplicativos</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botoes-trimestre">
+        <button class="btn-trimestre" onclick="mostrarTrimestre(1)">1º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(2)">2º Trimestre</button>
+        <button class="btn-trimestre" onclick="mostrarTrimestre(3)">3º Trimestre</button>
+    </div>
+
+    <div class="card">
+
+
+        <div id="tri1" class="trimestre">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Meme evolucionismo</h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHFDIYosbA/BBmDfKhxQOx8xDrxhFBdhQ/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHFDIYosbA/BBmDfKhxQOx8xDrxhFBdhQ/view?embed"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">A proposta foi apresentar conceitos da evolução de
+                                forma mais visual e descontraída, usando memes para explicar temas como seleção natural,
+                                Darwinismo, Lamarckismo e adaptação das espécies. Eu gostei bastante da proposta e foi
+                                divertido
+                                realizar a atividade.</p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C3 - Determinar os impactos das ações humanas nos ambientes,
+                                identificando
+                                suas causas e propondo soluções para a sua redução.
+                                <br>
+                                H15 - Comparar propostas de intervenção ambiental aplicando conhecimentos científicos e
+                                tecnológicos, observando os riscos e benefícios de sua implementação.
+                                <br>
+                                H18 - Identificar situações de risco ambiental na cidade onde reside.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Economia e Poder</h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHE8o8WWfQ/uihJ8EOU6JI7uqtvczbJ4w/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHE8o8WWfQ/uihJ8EOU6JI7uqtvczbJ4w/view?embed"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Atividade em grupo voltada para analisar a relação entre energia,
+                                economia
+                                e geopolítica, com foco no papel dos combustíveis fósseis no cenário mundial. O trabalho
+                                abordou
+                                como o controle de recursos energéticos influencia relações de poder, conflitos
+                                internacionais,
+                                preços globais e desigualdades sociais.
+                                A pesquisa explorou temas como OPEP, grandes produtores e consumidores de petróleo,
+                                dependência
+                                energética entre países, uso da energia como ferramenta geopolítica e os impactos
+                                econômicos do
+                                aumento dos combustíveis. Também discutimos como crises e guerras podem afetar
+                                diretamente a
+                                economia mundial e a vida cotidiana.Eu gostei bastante da proposta da atividade e
+                                compreendi o
+                                conteúdo de forma clara e engajada.</p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C1 - Compreender as ciências naturais e as tecnologias como
+                                construções
+                                humanas associadas à cultura dos povos e suas visões de mundo.
+                                <br>
+                                H1 - Interpretar informações apresentadas em diferentes linguagens usadas nas Ciências,
+                                como
+                                texto discursivo, gráficos, tabelas, relações matemáticas, diagramas ou representação
+                                simbólica.
+                                <br>
+                                C2 - Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da
+                                Natureza na
+                                explicação de fenômenos cotidianos, bem como dominar processos e práticas da
+                                investigação
+                                científica.
+                                <br>
+                                H9 - Explicar os conceitos de energia, matéria, vida e transformação para explicar
+                                fenômenos
+                                naturais e procedimentos tecnológicos.
+                                <br>
+                                H11 - Empregar procedimentos e práticas de observação, levantamento de hipótese,
+                                experimentação,
+                                coleta de dados e conclusões para resolução de problemas relacionados às Ciências da
+                                Natureza.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1">Relatório de eletrização por atrito</h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://docs.google.com/document/d/e/2PACX-1vQFSqO5zSPxfQ1nUwR9IJvHULR703lbvCRyZMYlbaJoRQlhgAjtm92Tg0WQLdvi_W3a9Nw-j0uCLVv7/pub?embedded=true"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://docs.google.com/document/d/e/2PACX-1vQFSqO5zSPxfQ1nUwR9IJvHULR703lbvCRyZMYlbaJoRQlhgAjtm92Tg0WQLdvi_W3a9Nw-j0uCLVv7/pub?embedded=true"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Atividade prática e investigativa voltada ao estudo dos processos
+                                de
+                                eletrização por atrito e interação entre cargas elétricas. O experimento explorou como
+                                diferentes
+                                materiais podem transferir elétrons, gerando corpos eletrizados e permitindo observar
+                                fenômenos
+                                como
+                                atração entre objetos e indução eletrostática.
+
+                                A atividade envolveu testes com materiais condutores, análise do comportamento das
+                                cargas e
+                                interpretação dos resultados com base em conceitos de eletrostática, como atração e
+                                repulsão de
+                                cargas, neutralidade elétrica e transferência de elétrons por atrito.</p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C1 - Compreender as ciências naturais e as tecnologias como
+                                construções
+                                humanas associadas à cultura dos povos e suas visões de mundo.
+                                <br>
+                                H1 - Interpretar informações apresentadas em diferentes linguagens usadas nas Ciências,
+                                como
+                                texto discursivo, gráficos, tabelas, relações matemáticas, diagramas ou representação
+                                simbólica.
+                                <br>
+                                C2 - Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da
+                                Natureza na
+                                explicação de fenômenos cotidianos, bem como dominar processos e práticas da
+                                investigação
+                                científica.
+                                <br>
+                                H9 - Explicar os conceitos de energia, matéria, vida e transformação para explicar
+                                fenômenos
+                                naturais e procedimentos tecnológicos.
+                                <br>
+                                H11 - Empregar procedimentos e práticas de observação, levantamento de hipótese,
+                                experimentação,
+                                coleta de dados e conclusões para resolução de problemas relacionados às Ciências da
+                                Natureza.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="tri2" class="trimestre" style="display:none;">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Estequiometria na Indústria</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHNWJozHU8/G1p6Fi6NkQouRR3DZELWeQ/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHNWJozHU8/G1p6Fi6NkQouRR3DZELWeQ/view"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Neste trabalho, pesquisamos sobre a produção de etanol e sua
+                                importância para a agroenergia e a transição energética. Estudamos a reação de
+                                fermentação da glicose, os cálculos estequiométricos, os impactos ambientais e a
+                                importância do etanol para a economia e para a sustentabilidade. Também pesquisamos o
+                                papel do Brasil na produção mundial de biocombustíveis e como o etanol pode ajudar na
+                                redução da dependência dos combustíveis fósseis.
+                                <br>
+                                <br>
+                                Eu gostei bastante de realizar esse trabalho porque consegui entender melhor como a
+                                Química está presente na produção de combustíveis e como a estequiometria influencia
+                                todo esse processo. Também achei interessante conhecer a importância do Brasil na
+                                produção de etanol e perceber como ele pode contribuir para uma energia mais
+                                sustentável.
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C2 - Aplicar os conceitos fundamentais e estruturas procedimentais
+                                das Ciências da Natureza na explicação de fenômenos cotidianos, bem como dominar
+                                processos e práticas da investigação científica.
+                                <br>
+                                H6 - Compreender os conceitos relacionados à Física em seus diferentes ramos:
+                                Astronomia, Mecânica, Acústica, Óptica, Termologia, Calorimetria, Ondulatória,
+                                Eletricidade, Magnetismo e Física Moderna e Nuclear.
+                                <br>
+                                H7 - Compreender os conceitos relacionados à Química nos seus diferentes ramos:
+                                Físico-química, Química orgânica e Química Geral.
+                                <br>
+                                H9 - Explicar os conceitos de energia, matéria, vida e transformação para explicar
+                                fenômenos naturais e procedimentos tecnológicos.
+
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+            </br>
+
+            <!-- 2 atividade -->
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Eletricidade e o Corpo Humano</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHS6gS4FkI/DSBtHzEoPY5rB7Xd-KYh8w/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHS6gS4FkI/DSBtHzEoPY5rB7Xd-KYh8w/view"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">Neste trabalho, produzimos uma cartilha sobre Eletricidade e o
+                                Corpo Humano, explicando como a corrente elétrica interage com o organismo e quais
+                                riscos ela pode causar. Abordamos os efeitos do choque elétrico, os fatores que
+                                influenciam sua gravidade e os principais cuidados para prevenir acidentes.
+                                <br>
+                                <br>
+                                Também apresentamos primeiros cuidados em casos de choque elétrico e uma aplicação da
+                                eletricidade na área da saúde, mostrando que ela pode ser utilizada tanto para causar
+                                riscos quanto para auxiliar em tratamentos e diagnósticos. A atividade teve como
+                                objetivo transmitir essas informações de forma clara, objetiva e acessível ao público em
+                                geral.
+                                <br>
+                                <br>
+                                Adorei realizar a atividade, tivemos a ajuda e o tempo necessário para fazê-la.
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">C1 - Compreender as ciências naturais e as tecnologias como
+                                construções humanas associadas à cultura dos povos e suas visões de mundo.
+                                <br>
+                                H3 - Inferir significado de termos técnico-científicos em textos de instrumentação ou de
+                                divulgação científica.
+                                <br>
+                                H4 - Identificar, em textos, diagramas, gráficos, imagens e tabelas, informações
+                                relevantes para compreender um fenômeno ou conceito
+                                relacionado às Ciências da Natureza.
+                                <br>
+                                C2 - Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da
+                                Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da
+                                investigação científica.
+                                <br>
+                                H12 - Relacionar informações para construir modelos em ciência e tecnologia.
+                                <br>
+                                C4 - Compreender o funcionamento dos organismos vivos em geral e o ser humano em
+                                especial, considerando suas relações com o ambiente em que vivem, abordando aspectos
+                                físicos e socioculturais.
+                                <br>
+                                H23 - Formular propostas de alcance individual ou coletivo, utilizando como critérios a
+                                preservação e a promoção da saúde individual e
+                                coletiva.
+
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+            </br>
+
+            <!-- 3 atividade -->
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b>Estequiometria na Indústria</b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="carousel">
+                            <div class="carousel-slides" id="slides">
+                                <img src="../fotos/mural1.jpeg" alt="Foto 1" loading="lazy">
+                                <img src="../fotos/mural2.jpeg" alt="Foto 2" loading="lazy">
+                                <img src="../fotos/mural3.jpeg" alt="Foto 3" loading="lazy">
+                                <img src="../fotos/mural4.jpeg" alt="Foto 4" loading="lazy">
+                            </div>
+                            <button class="btn prev" onclick="mudarSlide(-1)">&#10094;</button>
+                            <button class="btn next" onclick="mudarSlide(1)">&#10095;</button>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">MUDAR DESCRIÇÃO</p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">MUDAR HABILIDADES
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="tri3" class="trimestre" style="display:none;">
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b><strong>Magnetismo no mundo real</strong></b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHZNb1WjBk/Nwzd2TNxZCEnl4Z7cdSflg/view?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHZNb1WjBk/Nwzd2TNxZCEnl4Z7cdSflg/view?embed"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                C5 - Determinar as características das tecnologias associadas às Ciências da Natureza
+                                aplicadas em diferentes serviços ou contextos produtivos: indústria, manufatura,
+                                agricultura, agroindústria, extrativismo.
+                                <br>
+                                <br>
+                                H26 - Utilizar manuais para conhecer os processos de instalação e operação de diferentes
+                                equipamentos.
+                                <br>
+                                <br>
+                                H27 - Executar testes de controle para a comparação de serviços, materiais e produtos,
+                                utilizando parâmetros como custo e eficiência, empregabilidade, efeito colateral, riscos
+                                e benefícios.
+                                <br>
+                                <br>
+                                H28 - Reconhecer e utilizar nomenclatura e códigos científicos e tecnológicos para
+                                caracterizar materiais, substâncias e processos.
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <hr>
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b><strong>Ciclos Biogeoquímicos</strong></b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHTYwEX9N0/peZQwAzb7IwbRnVCpfCcHg/view?embed "
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHTYwEX9N0/peZQwAzb7IwbRnVCpfCcHg/view?embed"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                C1- Compreender as ciências naturais e as tecnologias como construções humanas
+                                associadas à cultura dos povos e suas visões de mundo.
+                                <br>
+                                <br>
+                                H4- Identificar, em textos, diagramas, gráficos, imagens e tabelas, informações
+                                relevantes para compreender um fenômeno ou conceito relacionado às Ciências da Natureza.
+                                <br>
+                                <br>
+                                C2 –Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da
+                                Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da
+                                investigação científica.
+                                <br>
+                                <br>
+                                H11- Empregar procedimentos e práticas de observação, levantamento de hipótese,
+                                experimentação, coleta de dados e conclusões para resolução de problemas relacionados às
+                                Ciências da Natureza.
+                                <br>
+                                <br>
+                                C5 –Determinar as características das tecnologias associadas às Ciências da Natureza
+                                aplicadas em diferentes serviços ou contextos.
+                                <br>
+                                <br>
+                                H24- Descrever as propriedades físicas, químicas e/ou biológicas dos materiais
+                                relacionando-os às finalidades as quais que se destinam.
+
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <section class="materia-secao">
+                <h2 class="humanas-titulo1"><b><strong>Ciclos Biogeoquímicos</strong></b></h2>
+                <div class="materia-layout">
+                    <div class="materia-media">
+                        <div class="activity-wrapper"
+                            style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
+                            <iframe class="activity-iframe" loading="lazy" title="Geopolítica - apresentação"
+                                src="https://www.canva.com/design/DAHWqv-q_JU/7BZLypJ3DAjklWoxRYoIrg/watch?embed"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="bnt-cv">
+                            <a class="bnt-link"
+                                href="https://www.canva.com/design/DAHWqv-q_JU/7BZLypJ3DAjklWoxRYoIrg/watch?embed"
+                                target="_blank" rel="noopener noreferrer">Ver Atividade</a>
+                        </div>
+                    </div>
+                    <div class="materia-texto">
+                        <section>
+                            <h2 class="humanas-descriçao1">Descrição:</h2>
+                            <p class="humanas-texto1">
+                            </p>
+                        </section>
+                        <section>
+                            <h2 class="humanas-descriçao1">Habilidades:</h2>
+                            <p class="humanas-texto1">
+                                C1- Compreender as ciências naturais e as tecnologias como construções humanas
+                                associadas à cultura dos povos e suas visões de mundo.
+                                <br>
+                                <br>
+                                H4- Identificar, em textos, diagramas, gráficos, imagens e tabelas, informações
+                                relevantes para compreender um fenômeno ou conceito relacionado às Ciências da Natureza.
+                                <br>
+                                <br>
+                                C2 –Aplicar os conceitos fundamentais e estruturas procedimentais das Ciências da
+                                Natureza na explicação de fenômenos cotidianos, bem como dominar processos e práticas da
+                                investigação científica.
+                                <br>
+                                <br>
+                                H11- Empregar procedimentos e práticas de observação, levantamento de hipótese,
+                                experimentação, coleta de dados e conclusões para resolução de problemas relacionados às
+                                Ciências da Natureza.
+                                <br>
+                                <br>
+                                C5 –Determinar as características das tecnologias associadas às Ciências da Natureza
+                                aplicadas em diferentes serviços ou contextos.
+                                <br>
+                                <br>
+                                H24- Descrever as propriedades físicas, químicas e/ou biológicas dos materiais
+                                relacionando-os às finalidades as quais que se destinam.
+
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+
+
+    <footer id="Contatos">
+        <h3>Contatos</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/j%C3%BAlia-ver%C3%ADssimo-a269a0380/" target="_blank"><img
+                        class="logo-icon" src="../fotos/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jufalcaov/" target="_blank"><img class="logo-icon"
+                        src="../fotos/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://github.com/juliaverissimo" target="_blank"><img class="logo-icon"
+                        src="../fotos/github.png" alt="GitHub"></a></li>
+        </ul>
+        &copy; Site desenvolvido por Júlia Veríssimo, com fins educativos. Todos os direitos reservados.
+    </footer>
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
